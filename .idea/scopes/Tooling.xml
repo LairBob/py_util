@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Tooling" pattern="file:pipfile.*" />
+</component>

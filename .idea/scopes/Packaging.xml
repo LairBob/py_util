@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Packaging" pattern="file[py_util_pkg]:__*__.py" />
+</component>

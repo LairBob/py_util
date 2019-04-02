@@ -1,0 +1,19 @@
+<component name="CopyrightManager">
+  <settings>
+    <module2copyright>
+      <element module="Source .PY Files" copyright="MIT License" />
+    </module2copyright>
+    <LanguageOptions name="Python">
+      <option name="fileTypeOverride" value="3" />
+      <option name="block" value="false" />
+      <option name="separateAfter" value="true" />
+      <option name="lenAfter" value="88" />
+      <option name="filler" value="#" />
+    </LanguageOptions>
+    <LanguageOptions name="__TEMPLATE__">
+      <option name="separateAfter" value="true" />
+      <option name="lenAfter" value="88" />
+      <option name="filler" value="#" />
+    </LanguageOptions>
+  </settings>
+</component>

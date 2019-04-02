@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Source .PY Files" pattern="file[py_util_pkg]:*.py&amp;&amp;!$Packaging&amp;&amp;!$Tests" />
+</component>
