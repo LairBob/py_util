@@ -3,14 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to LairBob's Python Utilities's documentation! BLAH!!
-=============================================================
+LairBob's Python Utilities
+==========================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-.. py:module::path_manager.py
+.. include:: path_manager.rst
 
 
 Indices and tables

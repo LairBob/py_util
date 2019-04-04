@@ -30,12 +30,12 @@ from pathlib import PurePosixPath, PureWindowsPath
 
 
 def is_posix_path(my_path: str) -> bool:
-    """Return whether or not a given path is Posix-based."""
+    """VERSION 1: Type annotation only."""
     return "/" in str(my_path)
 
 
 def is_posix_path2(my_path):
-    """Return whether or not a given path is Posix-based.
+    """VERSION 2: Return whether or not a given path is Posix-based.
 
     :type my_path: str
     """
@@ -43,7 +43,7 @@ def is_posix_path2(my_path):
 
 
 def is_posix_path3(my_path):
-    """Return whether or not a given path is Posix-based."""
+    """VERSION 3: Return whether or not a given path is Posix-based."""
     return "/" in str(my_path)
 
 
@@ -54,19 +54,19 @@ class ObjPath:
     """Stub Docstring."""
 
     def __init__(self, my_path: str, is_posix: bool = False):
-        """Stub Docstring."""
+        """Initialize 'ObjPath' class."""
         self._isPosix = is_posix
         self._parts = None
         self.path = my_path
 
     @property
     def is_posix(self) -> bool:
-        """Stub Docstring."""
+        """GETTER: objPath.is_posix"""
         return self._isPosix
 
     @property
     def path(self) -> str:
-        """Stub Docstring."""
+        """GETTER: objPath.path"""
         if self.is_posix:
             # logMain.DEBUG("OS: Posix")
             return str(PurePosixPath(*self._parts))
@@ -77,7 +77,7 @@ class ObjPath:
 
     @path.setter
     def path(self, new_path: str):
-        """Stub Docstring."""
+        """SETTER: objPath.path"""
         if is_posix_path(new_path):
             self._parts = PurePosixPath(new_path).parts
         else:
