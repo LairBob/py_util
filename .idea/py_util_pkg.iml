@@ -7,6 +7,13 @@
     <orderEntry type="jdk" jdkName="Python 3.7 (py_util_pkg-xfYrHFt5)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="C:\Dev\py_util\Pipfile.lock" />
+  </component>
+  <component name="ReSTService">
+    <option name="workdir" value="C:\Dev\py_util\docs" />
+    <option name="DOC_DIR" value="C:\Dev\py_util\docs" />
+  </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />
     <option name="PROJECT_TEST_RUNNER" value="pytest" />
